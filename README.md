@@ -15,7 +15,7 @@ STL files also are normally exported as a single object from CAD programs, so th
 
 I am aware of two free options for doing this:
 1. [Meshlab](http://www.meshlab.net/)
-  * Split by geometry easily (right click on mesh at top right, split in connected components)
+  * Split by geometry easily (right click on mesh layer at top right, split in connected components), this spits out all the components to separate layers.
   * Unfortunately there isn't a method to bulk export all objects after splitting, though someone may have a plugin, or written something for [Meshlab Server](https://sourceforge.net/p/meshlab/discussion/499533/thread/03c07afc/)
 2. [Blender](https://www.blender.org/)
   * Select the object (click), go into Edit mode (Tab), then press P, then select "By Loose Parts". Go back to object mode (Tab).
