@@ -18,7 +18,7 @@ I am aware of two free options for doing this:
   * Split by geometry easily (right click on mesh at top right, split in connected components)
   * Unfortunately there isn't a method to bulk export all objects after splitting
 2. [Blender](https://www.blender.org/)
-  * Select the object (click), go into Edit mode (Tab), then press P, then select "By Loose Parts".
+  * Select the object (click), go into Edit mode (Tab), then press P, then select "By Loose Parts". Go back to object mode (Tab).
   * Bulk export all components with this addon
 
 Batch import of the Collada files is then done via TIG's Sketchup addon [Import all from folder](https://sketchucation.com/forums/viewtopic.php?p=331966#p331966)
