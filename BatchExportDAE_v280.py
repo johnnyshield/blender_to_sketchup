@@ -6,7 +6,7 @@ bl_info = {
  "description": "Tool to batch export dae files",
  "author": "Patrick Jezek, edited by Johnny Shield",
  "blender": (2, 80, 0),
- "version": (1, 0, 4),
+ "version": (1, 0, 5),
  "category": "Export",
  "location": "",
  "warning": "",
@@ -60,8 +60,8 @@ class ColladaBatchExport(bpy.types.Operator):
 
         # convert path to windows friendly notation
         dir = os.path.dirname(bpy.path.abspath(context.scene.collada_batch_export_path))
-        # cursor to origin
-        bpy.context.scene.cursor_location = (0.0, 0.0, 0.0)
+        # cursor to origin (changed for 2.80)
+        bpy.context.scene.cursor.location = (0.0, 0.0, 0.0)
 
         for obj in col:
             # select only current object
