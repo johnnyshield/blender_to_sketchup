@@ -71,7 +71,6 @@ class ColladaBatchExport(bpy.types.Operator):
             # freeze location, rotation and scale
             bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
             # set pivot point to cursor location
-            # Check if this is needed - commented out by JS in 2.79 for DAE export
             bpy.ops.object.mode_set(mode='OBJECT')
             bpy.ops.object.origin_set(type='ORIGIN_CURSOR')
             # store mesh
