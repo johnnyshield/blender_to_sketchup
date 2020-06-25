@@ -32,7 +32,7 @@ Method likely will be:
 3. Extract text between node tags
 4. Insert into a merged file
 
-I have created a test file (shackle + slide rail) which imports into Sketchup OK.
+I have created a [test file (shackle + slide rail)](https://github.com/johnnyshield/blender/blob/master/Collada%20multiple%20geometry%20example.dae) which you can download and  import into Sketchup OK.
 
 Below is an example of the xml structure of a DAE file
 ![dae](https://github.com/johnnyshield/blender/blob/master/Screenshots%202.80/Code_Q3gDcQy1yR.png)
