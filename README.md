@@ -28,10 +28,14 @@ Though blender doesn't seem to be able to export separated geometry to a single 
 
 Method likely will be:
 1. Export each object to temp collada file
-2. Extract text between <geometry and </geometry> tags
-3. Extract text between <node and </node> tags
+2. Extract text between geometry tags
+3. Extract text between node tags
 4. Insert into a merged file
 
+I have created a test file (shackle + slide rail) which imports into Sketchup OK.
+
+Below is an example of the xml structure of a DAE file
+![dae](https://github.com/johnnyshield/blender/blob/master/Screenshots%202.80/Code_Q3gDcQy1yR.png)
 
 ## Installing and using the addon (2.80)
 If you're new to Blender, download the .py addon file, then to install go to Edit, Preferences
