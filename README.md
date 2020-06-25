@@ -23,7 +23,15 @@ I am aware of two free options for doing this:
 
 Batch import of the Collada files is then done via TIG's Sketchup addon [Import all from folder](https://sketchucation.com/forums/viewtopic.php?p=331966#p331966)
 
-Note: I don't know of a method of saving a single collada file with multiple objects
+### Planned upgrade
+Though blender doesn't seem to be able to export separated geometry to a single file, the Collada format can accept it, and Sketchup can import it provided it is all in the same scene.
+
+Method likely will be:
+1. Export each object to temp collada file
+2. Extract text between <geometry and </geometry> tags
+3. Extract text between <node and </node> tags
+4. Insert into a merged file
+
 
 ## Installing and using the addon (2.80)
 If you're new to Blender, download the .py addon file, then to install go to Edit, Preferences
