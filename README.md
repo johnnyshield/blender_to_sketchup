@@ -4,7 +4,7 @@
 This addon allows you to export all objects in a Blender file to separate Collada DAE files.
 
 ### Credits
-The code is not mine, so I have left the original author - [Patrick Jezek](https://github.com/pjezek/blender/tree/master/unity_tools) - attributed. All I have done is modified a much more capable addon to *only* do bulk DAE export, and then update it to work for Blender 2.80.
+The code is not mine, so I have left the original author - [Patrick Jezek](https://github.com/pjezek/blender/tree/master/unity_tools) - attributed. All I have done is modified a much more capable addon to *only* do bulk DAE export, and then update it to work for Blender 2.8x.
 
 ### Why I created this
 Sketchup is awesome, importing from CAD to Sketchup can be a pain.
