@@ -5,7 +5,7 @@ bl_info = {
  "name": "Batch Collada Exporter",
  "description": "Tool to batch export dae files",
  "author": "Patrick Jezek, edited by Johnny Shield",
- "blender": (2, 80, 2),
+ "blender": (2, 80, 3),
  "version": (1, 0, 6),
  "category": "Export",
  "location": "",
