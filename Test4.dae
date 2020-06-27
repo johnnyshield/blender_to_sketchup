@@ -16,10 +16,9 @@
 
   <library_visual_scenes>
     <visual_scene id="myscene">
-      <node id="Icosphere"> <instance_node url="#Icosphere-mesh" name="Icosphere"/> </node>
-      <node id="Cube"> <instance_node url="#Cube-mesh" name="Cube"/> </node>
+      <node id="Icosphere"> <instance_node url="#Icosphere" name="Icosphere"/> </node>
+      <node id="Cube"> <instance_node url="#Cube" name="Cube"/> </node>
     </visual_scene>
-
   </library_visual_scenes>
  
   <scene>
