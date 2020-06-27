@@ -32,7 +32,7 @@ Method likely will be:
 3. Extract text between node tags
 4. Insert into a merged file
 
-I have created a [test file (shackle + slide rail)](https://github.com/johnnyshield/blender/blob/master/Collada%20multiple%20geometry%20example.dae) which you can download and  import into Sketchup OK.
+As a proof of concept I mashed together a powershell script to extract geometry & node information from each Collada file in a folder and put them into a single collada xml. You can see the inputs and outputs ([test file with some primitives](https://github.com/johnnyshield/blender/blob/master/test.dae)) which imports into Blender as separate geometries, but not into Sketchup (merged to single mesh). So, this still doesn't work.
 
 Below is an example of the xml structure of a DAE file
 ![dae](https://github.com/johnnyshield/blender/blob/master/Screenshots%202.80/Code_Q3gDcQy1yR.png)
