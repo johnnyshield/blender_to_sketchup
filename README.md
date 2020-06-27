@@ -34,7 +34,7 @@ Method likely will be:
 
 As a proof of concept I mashed together a powershell script to extract geometry & node information from each Collada file in a folder and put them into a single collada xml. You can see the inputs and outputs ([test file with some primitives](https://github.com/johnnyshield/blender/blob/master/test4.dae)), screenshot below. 
 
-Note, that the PS script isn't quite right yet - I manually edited it based on the guidance ![here](https://asmaloney.com/2011/11/code/collada-files-and-sketchup-component-hierarchies/) It now imports to Sketchup fine (thanks Andy Maloney!) which still does not recognise the names.
+Note, that the PS script isn't quite right yet - I manually edited it based on the guidance [here](https://asmaloney.com/2011/11/code/collada-files-and-sketchup-component-hierarchies/) It now imports to Sketchup fine (thanks Andy Maloney!) which still does not recognise the names.
 
 ![dae](https://github.com/johnnyshield/blender_to_sketchup/blob/master/DAEpreview.png)
 
